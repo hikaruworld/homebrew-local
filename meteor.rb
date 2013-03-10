@@ -3,8 +3,8 @@ require 'formula'
 
 class Meteor < Formula
   homepage 'http://www.meteor.com'
-  url 'http://d3sqy0vbqsdhku.cloudfront.net/meteor-package-Darwin-x86_64-0.4.0.tar.gz'
-  sha1 'eeddf0a529e6664e99cb10e8335389b53e95abde'
+  url 'http://d3sqy0vbqsdhku.cloudfront.net/meteor-package-Darwin-x86_64-0.5.7.tar.gz'
+  sha1 '64160921f4cd6452a78814feebb61646310b98b5'
 
   def install
     libexec.install(Dir['{.*,*}'] - ['.', '..']) # includes dotfiles
