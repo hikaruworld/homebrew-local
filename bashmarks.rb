@@ -1,11 +1,10 @@
 require 'formula'
 
-class Bashmarks < Formula
-  head 'https://github.com/huyng/bashmarks.git', :revision => 'f3911e3a0f1fb72daa384a2b56960529b64c0602'
-  homepage 'http://www.huyng.com/projects/bashmarks/'
+class Bashmarks < ScriptFileFormula
+  head 'https://github.com/hikaruworld/bashmarks.git', :revision => 'cc0bd41c3bdd5d0cda77a9d736e1db1523104f9d'
 
   def install
-    #system ""
+    bin.install Dir['bashmarks.sh']
   end
 
 end
